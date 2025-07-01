@@ -12,6 +12,7 @@ Ce projet est une application web développée en Laravel permettant de gérer d
 - Calcul automatique du prix total en fonction du nombre de nuits
 - Ajout d’une note personnalisée à la réservation
 - Suppression automatique des images associées lors de la suppression d’une propriété
+- Filtrage dans la liste des propriétés par nom et par dates
 - Interface admin moderne via Filament
 
 ## Technologies utilisées
@@ -35,7 +36,7 @@ Ce projet est une application web développée en Laravel permettant de gérer d
 git clone https://github.com/DallasJr/D-Booking
 cd D-Booking
 ```
-
+ 
 2. **Installer les dépendances**
 
 ```bash
