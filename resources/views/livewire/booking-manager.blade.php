@@ -75,9 +75,9 @@
                             class="bg-gray-300 px-4 py-2 rounded hover:bg-gray-400">Annuler</button>
                     <button
                         wire:click="book"
-                        @if(!$startDate || !$endDate) disabled @endif
+                        @if(!$startDate || !$endDate || !$note) disabled @endif
                         class="px-4 py-2 rounded transition-colors duration-200
-                               @if($startDate && $endDate)
+                               @if($startDate && $endDate && $note)
                                    bg-fourth text-white hover:bg-fourth/80 cursor-pointer
                                @else
                                    bg-gray-400 text-gray-600 cursor-not-allowed

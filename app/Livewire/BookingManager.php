@@ -128,7 +128,7 @@ class BookingManager extends Component
 
     public function book()
     {
-        if ($this->startDate && $this->endDate) {
+        if ($this->startDate && $this->endDate && $this->note) {
             if (!$this->checkStartDate($this->startDate)) {
                 return;
             }
